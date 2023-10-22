@@ -80,6 +80,11 @@ body
  margin-right:20px;
 }
 
+:hover.button
+{
+ background-color: #7752FE;
+}
+
 .search
 {
  height: 3vh;
@@ -92,4 +97,33 @@ body
  width: 100%;
  object-fit: cover;
  padding-top:20px;
+}
+
+.gioco-immagine
+{
+ border-width: 10px;
+ border-color:#7752FE;
+ border: solid;
+ border-radius: 70px;
+ box-shadow: #7752FE (3px,3px,3px,3px);
+ cursor: pointer;
+ 
+}
+
+h3
+{
+ position: absolute;
+ 
+ color:rgb(204, 237, 255);
+ top:40px;
+ left:40px;
+ font-weight: 700;
+ border:none;
+ font-size:25px;
+ 
+}
+
+:hover.gioco-immagine
+{
+ opacity: 0.8;
 }
